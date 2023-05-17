@@ -19,12 +19,12 @@ while(roboHealth > 30){
     console.log(`robo2 attacks robo. his health is now ${roboHealth} after taking 25 damage`)
 }
 
-for (let i = 0; i < 2; i++){
-    if (roboHealth + 50 > 100)
+for(let i = 0; i < 2; i++){
+    if (roboHealth + 50 > 100){
         roboHealth = 100
 } else { 
     roboHealth += 50
-}
+}}
 
 console.log(roboHealth)
 
@@ -32,7 +32,7 @@ let roboDefense = 15
 
 roboHealth -= robo2Attack - roboDefense
 
-console.log(roboHelath)
+console.log(roboHealth)
 
 let attacks = 0
 
